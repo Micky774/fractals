@@ -27,3 +27,23 @@
 - Trap: |x|
 - Processing: t --> log(t + 0.0025)
 - CMAP: "plasma_r"
+
+### resonance
+- Trap: |xx+yy-1/9|
+- Processing: t --> log(t + 0.0025)
+- CMAP: "plasma_r"
+
+### echos
+- Trap: |x+yy-1|
+- Processing: t --> log(t + 0.0025)
+- CMAP: "plasma_r"
+
+### shattered reflections
+- Trap: |(x+.75)**3+x+yy-1|
+- Processing: t --> log(t + 0.0025)
+- CMAP: "plasma_r"
+
+### bubbles 1
+- Trap: |cos(x)+sin(y)-1|
+- Processing: t --> log(t + 0.0025)
+- CMAP: "plasma_r"
