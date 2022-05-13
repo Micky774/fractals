@@ -49,6 +49,26 @@
 - CMAP: "plasma_r"
 
 ### lattice
-- Trap: |cos(x)+sin(y)|
+- Trap: |sin(x)+cos(y)|
+- Processing: t --> log(t + 0.0025)
+- CMAP: "plasma_r"
+
+### punctured lattice
+- Trap: |sin(x-1.5)+cos(y)|
+- Processing: t --> log(t + 0.0025)
+- CMAP: "plasma_r"
+
+### doppler
+- Trap: |sin(x-2.5)+cos(y)|
+- Processing: t --> log(t + 0.0025)
+- CMAP: "plasma_r"
+
+### dunes
+- Trap: |sqrt(|cos(x)|) + cos(y)|
+- Processing: t --> log(t + 0.0025)
+- CMAP: "plasma_r"
+
+### bazaar
+- Trap: |sqrt(|sin(x)|) + cos(y)|
 - Processing: t --> log(t + 0.0025)
 - CMAP: "plasma_r"
