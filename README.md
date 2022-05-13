@@ -47,3 +47,8 @@
 - Trap: |cos(x)+sin(y)-1|
 - Processing: t --> log(t + 0.0025)
 - CMAP: "plasma_r"
+
+### lattice
+- Trap: |cos(x)+sin(y)|
+- Processing: t --> log(t + 0.0025)
+- CMAP: "plasma_r"
